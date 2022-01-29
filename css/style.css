@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500&display=swap');
+body{
+    font-family:'Dancing Script', cursive;
+   background-color: pink;
+    text-align: center;
+    font-size: 19px;
+}
+html{
+    scroll-behavior: smooth;
+}
+.wrapper{
+    width: 1400px;
+    margin: auto;
+    background-color: white;
+}
+.h1-logo{
+    margin: 0px;
+    padding: 0px;
+}
+.h1-logo:hover{
+    color: pink;
+}
+
+.navbar{
+    background-color: #e3d5cc;
+    margin: 20px;
+}
+nav a{
+    color: black;
+    font-size: 25px;
+    padding: 10px;
+    font-weight: 900px;
+    text-decoration: none;
+}
+.navbar:hover{
+    font-style: italic;
+}
+nav a:hover{
+    color: white;
+}
+.about-info{
+display: flex;
+background-color: #e3d5cc;    
+}
+.about-text{
+    text-align: center;
+    padding-top: 50px;
+    font-size: 19px;
+}
+.product-row{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;    
+}
+.product-item img{
+    width: 300px;
+    height: 300px;
+    border: 4px solid #d6c9c0;
+    border-radius: 300px;
+}
+.btn-more{
+    height: 30px;
+    margin: 10px 0;
+    border-radius: 5px;
+    border: none;
+    font-size: 18px;
+    font: weight 500px;
+    letter-spacing: 1px;
+    background-color:  #d6c9c0;
+    cursor: pointer    
+}
+.buy-info{
+ display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between   
+}    
+.buy-online,.buy-offline{
+    margin: 40px;
+    border: 5px solid #d6c9c0;
+    border-radius:20px ;
+}
+form input{
+    margin: 10px;
+    height: 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    padding-left: 15px;
+    border: 1px solid #ccc;
+    border-bottom-width: 2px;
+}
+.textarea{
+font-size: 16px;
+border-radius: 5px;
+padding-left: 15px;
+border: 1px solid #ccc;
+border-bottom-width: 2px;
+}
+.contact-us{
+    display: flex;
+    justify-content: space-around;
+    padding: 25px;
+    background-color: #e3d5cc;
+    margin: 20px;
+}
+.contact-second img{
+    width: 40px;
+    height: 40px;
+}
+footer{
+    padding-bottom: 1px;
+}
+.title{
+    font-weight: 900;
+    margin-top: 20px;
+}
+.bold{
+    font-weight: 800;
+}
+.product-item a{
+text-decoration: none;
+color: black;
+}
+.container{
+    background-color: white;
+}
+.about-info{
+    background-color: #e3d5cc;
+    margin: 20px;
+}
+@media screen and (max-width:992px){
+   .wrapper{
+max-width: 1000px;
+   }
+   .navbar{
+       margin: 10px;
+   }
+   .about-info{
+       max-width: 70% ;
+   }
+}

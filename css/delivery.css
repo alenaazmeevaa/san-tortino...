@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500&display=swap');
+body{
+    font-family:'Dancing Script', cursive;
+   background-color: pink;
+    text-align: center;
+    font-size: 19px;
+}
+html{
+    scroll-behavior: smooth;
+}
+.wrapper{
+    width: 1400px;
+    margin: auto;
+    background-color: white;
+}
+.h1-logo{
+    margin: 0px;
+    padding: 0px;
+}
+.h1-logo:hover{
+    color: pink;
+}
+.h3-logo{
+    margin: 0px;
+    padding: 0px;
+    opacity: 0.3;   
+}
+.navbar{
+    background-color: #e3d5cc;
+    margin: 20px;
+}
+nav a{
+    color: black;
+    font-size: 25px;
+    padding: 10px;
+    font-weight: 900px;
+    text-decoration: none;
+}
+.navbar:hover{
+    font-style: italic;
+}
+nav a:hover{
+    color: white;
+}
+form input{
+    margin: 10px;
+    height: 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    padding-left: 15px;
+    border: 1px solid #ccc;
+    border-bottom-width: 2px;
+}
+.contact-us{
+    display: flex;
+    justify-content: space-around;
+    padding: 25px;
+    background-color: #e3d5cc;
+}
+.contact-second img{
+    width: 40px;
+    height: 40px;
+}
+footer{
+    padding-bottom: 1px;
+}
+.title{
+    font-weight: 900;
+}
+.bold{
+    font-weight: 800;
+}
+.img-main{
+    width: 400px;
+    
+}
+.delivery{
+    display: flex;
+    text-align: center;
+}
+@media screen and (max-width:768 ) 
